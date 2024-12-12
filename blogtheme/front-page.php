@@ -25,7 +25,7 @@ foreach ($postslist as $post) : setup_postdata($post); ?>
          the_title();
          the_excerpt(); }
          else{
-         //
+         
          }?>   
         
         
@@ -37,7 +37,7 @@ foreach ($postslist as $post) : setup_postdata($post); ?>
 <?php endwhile; ?>
 </div>
 </div>	
-<!-- hmeromhnia -->
+
 <div class="curentdate">
 <?php $currentdate=get_the_date( 'dS M Y', get_the_ID() );
 	echo $currentdate;
