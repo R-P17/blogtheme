@@ -18,19 +18,14 @@ function load_js(){
 add_action('wp_enqueue_scripts', 'load_js');
 
 
-
-//Theme Options 
-//δημιουργειται το μενου στο διαχειριστικό του wordpress theme
 add_theme_support('menus');
 
 //Menus
 register_nav_menus(
 
 	array(
-		//menu id      ονομασια menu   στο menu location εμφανίζονται
 		'desktop-menu'=>'Top Menu Location',
 		'mobile-menu'=>'Mobile Menu Location',
-
 	)
 
 );
