@@ -1,6 +1,6 @@
 <?php
 if (!defined('ABSPATH')) {
-    exit; // Prevent direct access
+    exit; 
 }
 
 get_header();
